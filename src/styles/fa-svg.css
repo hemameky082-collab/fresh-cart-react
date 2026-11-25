@@ -1,0 +1,11 @@
+
+/* FontAwesome svg rules from original */
+.svg-inline--fa{box-sizing:content-box;display:var(--fa-display,inline-block);vertical-align:-.125em;height:1em;width:var(--fa-width,1.25em);overflow:visible}
+.svg-inline--fa.fa-xs{vertical-align:0}
+.svg-inline--fa.fa-lg{vertical-align:-.2em}
+.svg-inline--fa.fa-2xl{vertical-align:-.3125em}
+.svg-inline--fa.fa-pull-right,.svg-inline--fa .fa-pull-end{float:inline-end;margin-inline-start:var(--fa-pull-margin,.3em)}
+.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:var(--fa-primary-opacity,1)}
+.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:var(--fa-secondary-opacity,.4)}
+.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}
+.svg-inline--fa.fa-stack-1x{--fa-width:1.25em;height:1em;width:var(--fa-width)}

@@ -1,0 +1,33 @@
+.ngx-pagination {
+  margin-left: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  user-select: none;
+}
+.ngx-pagination li {
+  font-size: 0.875rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+.ngx-pagination a,
+.ngx-pagination span {
+  display: block;
+  padding: 0.1875rem 0.625rem;
+  border-radius: 0.5rem;
+}
+.ngx-pagination a:hover {
+  background: #e6e6e6;
+}
+.ngx-pagination .disabled {
+  color: #cacaca;
+  cursor: default;
+}
+.ngx-pagination .ellipsis::after {
+  content: '\2026';
+  padding: 0.1875rem 0.625rem;
+  color: #0a0a0a;
+}
